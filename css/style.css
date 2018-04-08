@@ -1,0 +1,833 @@
+/*----------------------------------------------------- Basic HTML -----------------------------------------------------------------*/
+
+* {
+    text-align: justify;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+.col {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: auto;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-green {
+    background-color: #00d49d;
+}
+
+.bg-blue {
+    background-color: #1a87f8;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.font-black {
+    color: #000;
+}
+
+.font-green {
+    color: #00d49d;
+}
+
+.font-blue {
+    color: #1a87f8;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 1em 4em;
+    letter-spacing: 4px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button:hover,
+.button:active {
+    color: #fff;
+    background-color: #00d49d;
+    border-radius: 50px;
+}
+
+
+/*----------------------------------------------------- Header HTML -----------------------------------------------------------------*/
+
+/* ---------------------- navigation -------------------------*/
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    height: 750px;
+}
+
+.navigation-image {
+    background-color: #000;
+    background-image: url("../images/cover-image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 99999;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 60px #000;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 40px 4em 10px 4em;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: #000;
+}
+
+.topnav a:hover {
+    background-color: #000;
+    color: #1a87f8;
+}
+
+.active {
+    background-color: #000;
+    color: #1a87f8;
+}
+
+.topnav .icon {
+    display: none;
+    font-size: 36px;
+}
+
+
+
+
+/* ---------------------- heading -------------------------*/
+
+.heading {
+    padding-top: 400px;
+}
+
+.heading h1,
+h2,
+p,
+ul,
+li {
+    text-align: center;
+    color: #fff;
+}
+
+.heading h1 {
+    font-size: 4em;
+}
+
+.heading h2 {
+    font-size: 2em;
+}
+
+.heading-h2 {
+    background-color: #000;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.heading p {
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+}
+
+.background-black {
+    background-color: #000;
+    padding: 30px;
+}
+
+.fade-header {
+    width: 100%;
+    float: left;
+}
+
+.fade-header ul {
+    list-style-type: none;
+}
+
+.fade-header li {
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+    display: inline-block;
+}
+
+.fa-chevron-circle-down {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+/*-------------------animation foe the header-------------------------*/
+
+.animated1 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.09s;
+}
+
+.animated2 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.1s;
+}
+
+.animated3 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+}
+
+.animated4 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+.animated5 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.4s;
+}
+
+.animated6 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.4s;
+}
+
+.animated7 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.animated8 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+}
+
+.animated9 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.7s;
+}
+
+.animated10 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.8s;
+}
+
+.animated11 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.9s;
+}
+
+.animated12 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.animated13 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.1s;
+}
+
+.animated14 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.2s;
+}
+
+.animated15 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.3s;
+}
+
+.animated16 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.4s;
+}
+
+.animated17 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.animated18 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.6s;
+}
+
+.animated19 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.7s;
+}
+
+.animated20 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.8s;
+}
+
+.animated21 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.9s;
+}
+
+.animated22 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+
+.animated23 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.1s;
+}
+
+.animated24 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.2s;
+}
+
+.animated25 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.3s;
+}
+
+.animated26 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.4s;
+}
+
+.animated27 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.5s;
+}
+
+.animated28 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.6s;
+}
+
+.animated29 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.7s;
+}
+
+.animated30 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.8s;
+}
+
+.animated31 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.9s;
+}
+
+.animated32 {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+}
+
+
+
+
+/*-------------------------------------------------------- Section-1 ABOUT US ----------------------------------------------------------------*/
+
+.about {
+    width: 100%;
+    background-color: #1387fa;
+    color: #fff;
+    height: auto;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about-me-image {
+    background-image: url(../images/about-me.jpg);
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-me-image-back {
+    background-image: url(../images/about-me-back.jpg);
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* ----------------- box-shadow -------------------*/
+
+.box-shadow {
+    box-shadow: 0px 0px 60px #e7e7e7;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+/*------------------------------------------ animation ----------------------------------------------------*/
+
+.animation-skills-UX {
+    background: #1387fa;
+    width: 90%;
+    animation: skill-UX 2s ease;
+}
+
+@keyframes skill-UX {
+    0% {
+        width: 100px;
+        background-color: #1387fa;
+    }
+    50% {
+        background-color: #00d49d;
+    }
+    100% {
+        width: 90%;
+        background-color: #1387fa;
+    }
+}
+
+
+.animation-skills-html {
+    background-color: #00d49d;
+    width: 95%;
+    animation: skill-html 2s ease;
+}
+
+@keyframes skill-html {
+    0% {
+        width: 100px;
+        background-color: #00d49d;
+    }
+    50% {
+        background-color: #1387fa;
+    }
+    100% {
+        width: 95%;
+        background-color: #00d49d;
+    }
+}
+
+
+.animation-skills-css {
+    background-color: #1387fa;
+    width: 95%;
+    animation: skill-css 2s ease;
+}
+
+@keyframes skill-css {
+    0% {
+        width: 100px;
+        background-color: #1387fa;
+    }
+    50% {
+        background-color: #00d49d;
+    }
+    100% {
+        width: 95%;
+        background-color: #1387fa;
+    }
+}
+
+
+.animation-skills-js {
+    background-color: #00d49d;
+    width: 85%;
+    animation: skill-js 2s ease;
+}
+
+@keyframes skill-js {
+    0% {
+        width: 100px;
+        background-color: #00d49d;
+    }
+    50% {
+        background-color: #1387fa;
+    }
+    100% {
+        width: 85%;
+        background-color: #00d49d;
+    }
+}
+
+
+.animation-skills-jq {
+    background-color: #1387fa;
+    width: 80%;
+    animation: skill-jq 2s ease;
+}
+
+@keyframes skill-jq {
+    0% {
+        width: 100px;
+        background-color: #1387fa;
+    }
+    50% {
+        background-color: #00d49d;
+    }
+    100% {
+        width: 80%;
+        background-color: #1387fa;
+    }
+}
+
+
+.animation-skills-wordpress {
+    background-color: #00d49d;
+    width: 75%;
+    animation: skill-wordpress 2s ease;
+}
+
+@keyframes skill-wordpress {
+    0% {
+        width: 100px;
+        background-color: #00d49d;
+    }
+    50% {
+        background-color: #1387fa;
+    }
+    100% {
+        width: 75%;
+        background-color: #00d49d;
+    }
+}
+
+
+.animation-skills-graphics {
+    background-color: #1387fa;
+    width: 85%;
+    animation: skill-graphics 2s ease;
+}
+
+@keyframes skill-graphics {
+    0% {
+        width: 100px;
+        background-color: #1387fa;
+    }
+    50% {
+        background-color: #00d49d;
+    }
+    100% {
+        width: 85%;
+        background-color: #1387fa;
+    }
+}
+
+/*------------------------------------------ section-4 SOFTWARES I HAVE WORKED WITH ----------------------------------*/
+
+.softwares {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+}
+
+.softwares h1 {
+    color: #fff;
+}
+
+
+/*------------------------------------------ section-5 DEVICES I HAVE WORKED WITH ----------------------------------*/
+
+.devices {
+    background-color: #00d49d;
+    color: #fff;
+    height: auto;
+}
+
+.devices h1 {
+    color: #fff;
+}
+
+.device-icon {
+    font-size: 8em;
+    color: #fff;
+}
+
+/*------------------------------------------ section-6 MY WORK ----------------------------------*/
+
+.work {
+    background-color: #fff;
+    color: #000;
+    height: auto;
+}
+
+.work h1 {
+    color: #000;
+}
+
+.img-boxshadow {
+    box-shadow: 0 0 60px #e7e7e7;
+}
+
+.work img {
+    height: 300px;
+    width: auto;
+}
+
+.img-hover {
+    height: 300px;
+    width: auto;
+    -webkit-transition: height 0.2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: height 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.img-hover:hover {
+    height: 350px;
+    width: auto;
+}
+
+figurecaption {
+    text-align: center;
+}
+
+/*--added css external--*/
+
+.button-area input[type=checkbox] {
+    display: none;
+}
+
+#mnsry_container {
+    position: relative;
+}
+
+#mnsry_container article {
+    width: 40%;
+    min-height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    margin: 2rem;
+}
+
+#mnsry_container article h1 {
+    position: absolute;
+    top: 46%;
+    left: 0;
+    width: 100%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 1.2s;
+    z-index: 1;
+}
+
+#mnsry_container article img {
+    display: block;
+    width: 100%;
+    transition: all .8s;
+}
+
+#mnsry_container article:hover h1 {
+    transform: translate3d(0, 18px, 0) scale(1.2, 0.4);
+    opacity: 0;
+}
+
+#mnsry_container article:hover img {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+#loading_msg {
+    position: fixed;
+    top: 48%;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (max-width: 860px) {
+    #mnsry_container article {
+        width: 50%;
+        min-height: 150px;
+    }
+}
+
+@media (max-width: 667px) {
+    #mnsry_container article {
+        width: 100%;
+        min-height: 220px;
+    }
+}
+
+/*------------------------------------------ section-7 CONTACT  ----------------------------------*/
+
+.contact {
+    background-color: #1387fa;
+    color: #fff;
+    position: relative;
+}
+
+.contact h1 {
+    color: #fff;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.social-icon {
+    font-size: 36px;
+    -webkit-transition: font-size 0.2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.social-icon:hover {
+    font-size: 45px;
+}
+
+.fa-chevron-circle-up {
+    font-size: 60px;
+    float: right;
+    margin: 0 20px;
+}
+
+@keyframes gototop {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+.gototop {
+    animation-name: gototop;
+    transform-origin: center bottom;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+
+/*------------------------------------------ section-8 FOOTER  ----------------------------------*/
+
+footer {
+    color: #fff;
+    background-color: #000;
+    clear: both;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}

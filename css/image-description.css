@@ -1,0 +1,79 @@
+.pic{
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    overflow: hidden;  
+    float: left;
+    padding: 40px;
+    display: inline-block;
+}
+
+.pic-caption{
+    cursor: inherit;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.92);
+    opacity:0;
+    padding: 2rem;
+    text-align:center;
+}
+
+.pic-image{
+     -webkit-transform: scale(1.1);
+             transform: scale(1.1);
+}
+.pic:hover .pic-image{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+/*All classes with same attribute*/
+a ,a:hover,
+.pic .pic-image,
+.pic-caption,
+.pic:hover .pic-caption,
+.pic:hover img{
+     transition: all 0.5s ease;
+    -webkit-transition: all 0.5 ease;  
+}
+
+/*Effects in Caption*/
+.pic:hover .bottom-to-top,
+.pic:hover .top-to-bottom,
+.pic:hover .left-to-right,
+.pic:hover .right-to-left{
+    opacity: 1;
+}
+/*Bottom to Top*/
+.bottom-to-top{
+    top:50%;    
+    left:2.5%;
+}
+.pic:hover .bottom-to-top{
+    top:2.5%
+}
+/*Top to Bottom*/
+.top-to-bottom{
+    bottom:50%;    
+    left:2.5%;
+}
+.pic:hover .top-to-bottom{
+    bottom: 2.5%;
+}
+/*Left to Right*/
+.left-to-right{
+    top:2.5%;
+    right:50%;
+}
+.pic:hover .left-to-right{
+    right: 2.5%;
+}
+/*Right to Left*/
+.right-to-left{
+    top:2.5%;
+    left:50%;
+}
+.pic:hover .right-to-left{
+    left: 2.5%;
+}
